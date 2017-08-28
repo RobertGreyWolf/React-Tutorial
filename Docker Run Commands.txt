@@ -1,0 +1,9 @@
+
+//Docker build command
+docker build -t react-docker .
+
+//Docker Run command
+docker run -it --rm -p 5000:5000 --name react-demo react-docker
+
+//Navigate to:
+http://localhost:5000/
